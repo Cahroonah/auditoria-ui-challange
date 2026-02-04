@@ -65,32 +65,22 @@ npm start
 http://localhost:3000
 
 
-Assumptions
+## **Assumptions**
 
-Sorting is client-side only.
+-Sorting is client-side only.
+-StatusBadge supports three states: pending, complete, error.
+-Filtering is case-insensitive and matches vendor name.
+-Table supports row click but does not navigate to other pages.
+-Components are reusable and can be used in other admin pages.
+-Styling is minimal but responsive; focus is on clean structure.
 
-StatusBadge supports three states: pending, complete, error.
-
-Filtering is case-insensitive and matches vendor name.
-
-Table supports row click but does not navigate to other pages.
-
-Components are reusable and can be used in other admin pages.
-
-Styling is minimal but responsive; focus is on clean structure.
-
-Estimated Time Taken
+## **Estimated Time Taken**
 
 ~6-7 hours:
 
 Component design & types: 2h
-
 Integration page & mock data: 1h
-
 Search + debounce implementation: 1h
-
 Sorting and DataTable polishing: 1h
-
 Styling & README: 30min
-
 Testing : 1h
