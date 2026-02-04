@@ -1,0 +1,40 @@
+.datatable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .datatable th,
+  .datatable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .sort-icon {
+    margin-left: 8px; 
+    font-size: 0.8em; 
+    display: inline-block;
+    vertical-align: middle; 
+  }
+
+  .datatable th.sortable {
+    cursor: pointer;
+  }
+  .datatable tr:nth-child(even) {
+    background-color: #f9f9f9; 
+  }
+  
+  .datatable tr:nth-child(odd) {
+    background-color: #fff; 
+  }
+  
+  .datatable tr:hover {
+    background-color: #e0f7fa; 
+  }
+  
+  .datatable-loading,
+  .datatable-empty {
+    padding: 20px;
+    text-align: center;
+    color: #555;
+  }
